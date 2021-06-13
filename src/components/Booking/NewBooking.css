@@ -1,0 +1,33 @@
+.dept{
+    display: flex;
+    justify-content: space-between;
+}
+
+.maindiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.airline{
+    margin-top: 10px;
+    width: 1000px;
+    height: 100px;
+    border: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.maindiv :hover{
+    background-color: rgb(195, 0, 255);
+}
+
+.booknow{
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    color: white;
+}

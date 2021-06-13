@@ -1,0 +1,9 @@
+.booking{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.newbooking{
+    color: white;
+}
