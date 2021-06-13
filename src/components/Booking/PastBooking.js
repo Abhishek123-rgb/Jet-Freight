@@ -3266,7 +3266,7 @@ const PastBooking = () => {
                             value.map((item) => 
                             <div className="maindiv">
                                 <div className="airline">
-                                    <img src={item.logoImage} />
+                                    <img src={item.logoImage} alt="logo"/>
                                     <div>Flight Name--{item.name}</div>
                                     <div>Cost ${item.cost}</div>
                                     <div>

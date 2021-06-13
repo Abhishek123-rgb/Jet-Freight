@@ -3266,7 +3266,7 @@ const NewBooking = () => {
                             value.map((item) => 
                             <div className="maindiv">
                                 <div className="airline">
-                                    <img src={item.logoImage} />
+                                    <img src={item.logoImage} alt="logo"/>
                                     <div>Flight Name--{item.name}</div>
                                     <div>Cost ${item.cost}</div>
                                     <div>
@@ -3278,7 +3278,7 @@ const NewBooking = () => {
                                 </div>
                                 <div className="booknow">
                                     {
-                                        item.status == "Unavailable" ? <div style={{backgroundColor: "red", height: "100px", paddingLeft: "5px", paddingTop: "35px"}}>Unavailable</div> : <div style={{backgroundColor: "green", height: "100px", paddingLeft: "5px", paddingTop: "5px"}}>
+                                        item.status === "Unavailable" ? <div style={{backgroundColor: "red", height: "100px", paddingLeft: "5px", paddingTop: "35px"}}>Unavailable</div> : <div style={{backgroundColor: "green", height: "100px", paddingLeft: "5px", paddingTop: "5px"}}>
                                             <p>Available</p>
                                             <button style={{fontSize: "10px"}}>Book Now</button>
                                         </div>
