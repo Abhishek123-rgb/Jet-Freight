@@ -1,5 +1,6 @@
 import React from 'react'
 import './NewBooking.css';
+import SliderTwo from './Slider';
 const NewBooking = () => {
     const value = [
         {
@@ -3275,6 +3276,10 @@ const NewBooking = () => {
                                         <span>{item.arrival}</span>
                                     </div>
                                     <span>Rating- {item.rating}</span>
+                                    <div class="slidecontainer">
+                                        <SliderTwo/>
+                                        <p style={{fontSize: "10px"}}><span>Min Cost</span><span style={{marginLeft: "5px"}}>Max Cost</span></p>
+                                    </div>
                                 </div>
                                 <div className="booknow">
                                     {
