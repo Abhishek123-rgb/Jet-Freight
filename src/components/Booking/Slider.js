@@ -24,7 +24,7 @@ export default function SliderTwo() {
   return (
     <div className={classes.root}>
       <Typography id="range-slider" gutterBottom>
-        Rang
+        Range
       </Typography>
       <Slider
         value={value}

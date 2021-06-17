@@ -3278,7 +3278,7 @@ const NewBooking = () => {
                                     <span>Rating- {item.rating}</span>
                                     <div class="slidecontainer">
                                         <SliderTwo/>
-                                        <p style={{fontSize: "10px"}}><span>Min Cost</span><span style={{marginLeft: "5px"}}>Max Cost</span></p>
+                                        <p style={{fontSize: "10px"}}><span>Min Cost</span><span style={{marginLeft: "13px"}}>Max Cost</span></p>
                                     </div>
                                 </div>
                                 <div className="booknow">
